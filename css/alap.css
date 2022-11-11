@@ -1,5 +1,43 @@
 /*oldalszerkezet,reszponziv*/
 
+nav ul li{
+    display: inline-block;
+    block-size: 50px;
+    margin-left:  50px;
+}
+
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.kepek{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.kepek img{
+    width: 100%;
+}
+
 /*navbar, navbar reszponziv*/
 
 /*text,behuzás*/
+
+/*reszponziv*/
+
+@media only screen and (max-width: 800px){
+
+    article{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .kepek{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+}
