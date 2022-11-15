@@ -31,10 +31,12 @@ nav{
 }
 nav>div{
     background-color: brown;
+    
 }
 nav>div>ul>li{
-    background-color: #f4511e;
-    border: none;
+    
+    background-color: brown;
+    border: 2px solid #000000;
     color: white;
     padding: 16px 32px;
     text-align: center;
@@ -42,9 +44,11 @@ nav>div>ul>li{
     margin: 4px 2px;
     opacity: 0.6;
     transition: 0.3s;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 a:link{
     color: red;
@@ -70,6 +74,9 @@ a:hover{
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
+    }
+    nav>div{
+        background-color: rgb(92, 32, 204);
     }
 
 }
